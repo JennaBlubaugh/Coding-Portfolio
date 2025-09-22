@@ -1,0 +1,275 @@
+h1,
+h2,
+h3 {
+  font-family: verdana, sans-serif;
+}
+
+p {
+  font-family: arial;
+  font-size: 1.25em;
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+@media (min-width: 1000px) {
+  body {
+    background-image: url("https://wallpapers.com/images/hd/light-yellow-background-mv77cxaxfh2k9cwd.jpg");
+    text-align: center;
+  }
+  #synopsis {
+    background-color: rgb(255, 194, 114);
+    padding: 10px;
+    border-radius: 25px;
+    border: dotted 3px black;
+  }
+  .freshmenGrid {
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 10px;
+    border: solid 5px rgb(253, 255, 205);
+    border-radius: 25px;
+  }
+  .grid-item {
+    background-color: rgb(255, 227, 69);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  #summerTitle {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  #summerContent {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+  }
+  #fallTitle {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  #fallContent {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+  }
+  #springTitle {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  #springContent {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+  }
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  img {
+    width: 450px;
+    height: 450px;
+  }
+  .sophGrid {
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    padding: 10px;
+    border: solid 5px rgb(253, 255, 205);
+    border-radius: 25px;
+  }
+  #summerSophTitle {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  #summerSophContent {
+    grid-column-start: 1;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+  }
+  #fallSophTitle {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  #fallSophContent {
+    grid-column-start: 2;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+  }
+  #springSophTitle {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 1;
+    grid-row-end: span 1;
+  }
+  #springSophContent {
+    grid-column-start: 3;
+    grid-column-end: span 1;
+    grid-row-start: 2;
+    grid-row-end: span 1;
+  }
+  #flexSophContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .title {
+    background-color: rgb(255, 194, 114);
+  }
+  .headerImage {
+    display: 100%;
+    height: 400px;
+    width: auto;
+    padding: 10px;
+    background-color: rgb(61, 61, 61);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .n1 {
+    background-color: rgb(255, 156, 114);
+  }
+  .n2 {
+    background-color: rgb(255, 227, 69);
+  }
+  .n3 {
+    background-color: rgb(255, 156, 114);
+  }
+  .n4 {
+    background-color: rgb(255, 227, 69);
+  }
+}
+@media (min-width: 600px) and (max-width: 1000px) {
+  body {
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/hd/light-yellow-background-mv77cxaxfh2k9cwd.jpg");
+  }
+  #synopsis {
+    background-color: rgb(255, 194, 114);
+    padding: 10px;
+    border-radius: 25px;
+    border: dotted 3px black;
+  }
+  .headerImage {
+    width: 100%;
+    opacity: 70%;
+    height: 50%;
+  }
+  .freshmenGrid {
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: solid 5px rgb(253, 255, 205);
+    border-radius: 25px;
+  }
+  .grid-item {
+    background-color: rgb(255, 227, 69);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  .sophGrid {
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 10px;
+    border: solid 5px rgb(253, 255, 205);
+    border-radius: 25px;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    display: 100%;
+  }
+  .title {
+    background-color: rgb(255, 194, 114);
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .item {
+    text-align: center;
+  }
+  .flexContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  #flexSophContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    text-align: center;
+    background-image: url("https://wallpapers.com/images/hd/light-yellow-background-mv77cxaxfh2k9cwd.jpg");
+  }
+  #synopsis {
+    background-color: rgb(255, 194, 114);
+    padding: 10px;
+    border-radius: 25px;
+    border: dotted 3px black;
+  }
+  .headerImage {
+    width: 100%;
+    opacity: 70%;
+    height: auto;
+  }
+  .freshmenGrid {
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    border: solid 5px rgb(253, 255, 205);
+    border-radius: 25px;
+  }
+  .grid-item {
+    background-color: rgb(255, 227, 69);
+    border: solid 1px black;
+    border-radius: 25px;
+    padding: 10px;
+  }
+  .sophGrid {
+    background-color: rgb(61, 61, 61);
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+    border: solid 5px rgb(253, 255, 205);
+    border-radius: 25px;
+  }
+  img {
+    height: 300px;
+    width: 300px;
+    display: 100%;
+  }
+  .title {
+    background-color: rgb(255, 194, 114);
+  }
+}/*# sourceMappingURL=main.css.map */

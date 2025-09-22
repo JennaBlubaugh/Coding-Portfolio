@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link to stylesheet-->
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <title>Cooking Techniques</title>
+</head>
+<header class="header">
+    <h1>Techniques and dish examples</h1>
+    <nav>
+        <!--This creates the navigation which goes to the sections in the website-->
+        <ul>
+            <a href="index.html#blanching">
+                <li>Blanching</li>
+            </a>
+            <a href="index.html#cutting">
+                <li>Cutting</li>
+            </a>
+
+            <a href="index.html#sous">
+                <li>Sous Vide</li>
+            </a>
+            <a href="index.html#poaching">
+                <li>Poaching</li>
+            </a>
+
+            <a href="index.html#dishes">
+                <li>Dishes</li>
+            </a>
+        </ul>
+    </nav>
+</header>
+
+<body>
+
+
+    <!--This will be the first grid on phone and ipad format
+    phone will have one grid, two columns, two rows, then a space in between this grid and the next
+tablet/ipad will have grids side by side-->
+    <h2>Preparation</h2>
+    <div class="grid-container one">
+
+        <h3 class="grid-item wide" id="blanching">Blanching</h3>
+        <!--Grid-item wide is in phone
+"Item" is nowhere
+tabletRed box is for tablet breakpoint-->
+
+
+        <!--First item, blanching
+        - tabletRedBox creates a color coordination between the elements that go together.  The title, text, and the image, which are next to the other data.-->
+        <div class="grid-item">
+            <img src="images/blanching.jpg" alt="Green beans in a bowl with cold water" width="300px" height="300px"
+                class="imageScreen imageFloatLeft tabletRedBox">
+            <!--imagescreen, imagefloat left is computer
+tabletRedbox is tablet-->
+
+
+        </div>
+        <p class="grid-item pScreen tabletRedBox">Blanching is a technique where produce like fruits and vegetables
+            are submerged in boiling water, then immediately after are taken out and placed in an ice bath to halt the
+            cooking. This is done so the fruit and vegetables can have a brighter color, deactivates enzymes which can
+            affect the taste, and allows the produce to be stored in its best condition. It is not cooked after this
+            process, and is still raw.
+
+            <!--Grid item is everywhere
+            pscreen is computer
+        item nowhere
+    tabletRedBox is tablet-->
+        </p>
+    </div>
+    <div class="grid-container tabletGridContainer two">
+        <!--Grid container is everywhere, tablet for tablet-->
+
+
+        <!--the tablet grid is the format for the three pictures and the large bulletted
+        list.  This works and is unique to right here in this div tag-->
+
+        <h3 class="grid-item wide tabletItem" id="cutting">Cutting Techniques</h3>
+        <!--Universal and tablet classes-->
+
+
+        <div class="grid-item tabletItemWide tabletOrangeBox">
+            <!--Uni and tablet-->
+
+
+            <!--Despite this being called 'wide' it is actually long.  I originally wanted it to be
+            a horizontal orientation, but this format works nicely too-->
+            <!--Three images used here because on phone it fills up the empty space-->
+
+            <img src="images/cutting.jpg" alt="Cucumber being sliced into rectangles" width="300px" height="300px"
+                class="imageScreen imageFloatLeft">
+
+
+            <img src="images/strips.jpg" alt="Vegetables chopped into strips" width="300px" height="300px"
+                class="imageScreen imageFloatLeft">
+
+            <img src="images/rondelle.jpg" alt="a carrot cut into circles" width="300px" height="300px"
+                class="imageScreen imageFloatLeft">
+
+            <!--imagescreen is computer as well as image float left-->
+
+
+        </div>
+        <div class="grid-item long tabletList tabletOrangeBox three">
+            <!-- grid item, long are universal
+item is nowhere-->
+
+            <!--The list of different cutting techniques-->
+            <p class="pScreen">There are many different cutting techniques that can be
+                used for different fruits and vegetables, and different techniques
+                for different dishes. Here are the different methods as such: </p>
+            <ul class="pScreen">
+                <li>Chop: A common cut that involves cutting in equal
+                    intervals</li>
+
+                <li>Chiffonade: This refers to cutting in strips and is best
+                    used for leafy vegetables. The cuts are thin and parallel to each other</li>
+
+                <li>Rondelle: This means cutting into circles. Thickness can vary, and this technique is generally used
+                    on
+                    carrots or cucumbers for example. </li>
+
+
+                <li>Diagonal: A diagonal cut is good for preparing certain vegetables for a stir-fry, and the knife is
+                    held
+                    at an
+                    angle
+                    while cutting</li>
+
+                <li>Julienne: Also known as strip cuts, they are long and rectangular, and involves cutting every side
+                    of
+                    the
+                    vegetable.
+                    A more familiar example of a rectangular cut like this is Pont neuf, which is how French fries are
+                    cut.
+                    The
+                    third variation of this cut is Batonnet and makes smaller sticks.
+                </li>
+                <li>Brunoise: These are also known as cube cuts. Different dishes require different sizes of cubes,
+                    however
+                    the
+                    standard cut and size is the Brunoise. Marcédoine are medium cubes, Parmentier are large cubes, and
+                    Carré
+                    are extra-large cubes.</li>
+            </ul>
+        </div>
+    </div>
+    <h2>Cooking</h2>
+    <!--This opens the next section, with two items-->
+    <div class="grid-container four">
+
+        <!--Item one-->
+        <h3 class="grid-item wide" id="sous">Sous Vide</h3>
+        <div class="grid-item">
+            <img src="images/vide.jpg" alt="Meat in a plastic bag being submerged in water to be cooked" width="300px"
+                height="300px" class="imageScreen imageFloatLeft tabletRedBox">
+        </div>
+        <p class="grid-item pScreen tabletRedBox">Sous Vide is a technique where you vacuum seal the
+            food and then
+            submerge
+            it into water
+            with a precise
+            temperature. This is a very specific cooking technique, and the results cannot be replicated by any other
+            technique. This is because through other methods, you don't have a precise control over the temperature when
+            food is on a grill, in the oven, or on the stove. </p>
+
+        <!--Item two-->
+        <h3 class="grid-item wide" id="poaching">Poaching</h3>
+        <div class="grid-item">
+            <img src="images/poaching.jpg" alt="chicken in less than boiling water, being poached" width="300px"
+                height="300px" class="imageScreen imageFloatLeft tabletOrangeBox">
+        </div>
+        <p class="grid-item pScreen tabletOrangeBox">Poaching is similar to blanching and sous vide in the sense
+            that it
+            uses
+            water to cook it.
+            Poaching involves
+            gently cooking food in a liquid below the boiling point. It creates a delicate flavor to the food while also
+            using some of the flavor in the liquid to add to the taste. </p>
+
+    </div>
+    <!--This section shows dishes that use the techniques discussed above, and when the user hovers over the image
+        it gives a link to the recipe-->
+
+    <h1 id="dishes">Completed Dishes</h1>
+    <a href="https://natashaskitchen.com/eggs-benedict-recipe/"><img src="images/benedict.jpg"
+            alt="plate of Eggs Benedict and uses poaching" width="300px" height="300px" class="smallDisplay"></a>
+
+    <a href="https://sodelicious.recipes/recipe-collections/blanching-recipes/"><img src="images/basbousa.jpg"
+            alt="Basbousa dish, uses blanching technique" width="300px" height="300px" class="smallDisplay"></a>
+
+    <a href="https://www.seriouseats.com/sichuan-chicken-salad-chinese-bang-bang-hot-and-numbing-recipe"> <img
+            src="images/bang.jpg" alt="Bang Bang Ji Si, which uses the sous vide technique" width="300px" height="300px"
+            class="smallDisplay">
+    </a>
+    <!--Maybe link to recipies-->
+</body>
+
+</html>
