@@ -5,86 +5,175 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenna Blubaugh Portfolio</title>
-     <link rel="stylesheet" type="text/css" href="indexStyle.css">
+    <link rel="stylesheet" type="text/css" href="indexStyle.css">
 </head>
 
 <body>
+    <header>
+        <nav>
 
-    <p>Welcome to the portfolio of Jenna Blubaugh! Below are works from different classes 
-    in the Digital Media: Web Design major, such as Drawing Fundamentals, 2D Art, Front-End Web Design, Client-Side Scripting, and User-Centered Design.
-    </p>
+            <a href="#websites">
+                <div class="divNav">Websites</div>
+            </a>
 
-    <p>Coding Languages known:</p>
-    <ol>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript/DOM Scripting</li>
-        <li>SASS</li>
-        <li>SCSS</li>
-        <li>PHP</li>
-        <li>MySQL</li>
-        
-    </ol>
-    <p>Additionally is adept in the LAMP stack (Linux, Apache, MySQL, PHP)</p>
-
-    <h2>Coding Assignments from Class</h2>
-
-    <ul>
+            <a href="#wireframes">
+                <div class="divNav">Wireframes</div>
+            </a>
+            <a href=#artwork>
+                <div class="divNav"> Artwork</div>
+            </a>
 
 
-               
-  <li><a href="Interaction Stills DOM Scripting/gallery.html">Interaction Stills DOM </a></li>
-<p>This website was a mimicry of an example to us given by the professor.  Utilizes DOM Scripting
-to show an enlarged image when one of the smaller images is clicked on, and there is a border around the images
-when scrolled over.</p>
-
-        
-  <li><a href="Responsive Hobby website/index.html">Responsive Website on a Hobby</a></li>
-<p>This assignment was done as a test for making a responsive website with the screen formats phone, tablet, and desktop.  
-Website talks about the hobby of cooking.</p>
-
- 
-        
-    <li><a href="Artists Website/index.html">Artist Gallery Website</a></li>
-  <p>This website displays information about artists in a pattern.  Unresponsive.</p>
-        
-        <li><a href="ResponsiveImageResolutionLab/index.html">Responsive Image Resolution Lab</a></li>
-      <p>This website was a lab for Front End Web Design, and as the screen adapts to different screen sizes, the
-      resolution changes for the images.</p>
-
-</ul>
-
-    <h2>Figma Wireframes from Class</h2>
-    
-<h3>Low-Fidelity Prototype(s)</h3>
-
-    <p>The following lo-fi wireframes are done in the design phase
-    of the Web Design Capstone for seniors.  Three variations in Figma were made, being a phone, tablet, and desktop
-    layout, planning for mobile-first.</p>
-    
-<!--Phone-->
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500" src="https://embed.figma.com/design/NwfrQVUoP0lALyEISe7WZ5/LoFi-Prototype-Phone---Goblin-Gizmos?node-id=0-1&embed-host=share" allowfullscreen></iframe>
-
-    <!--Tablet-->
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500" src="https://embed.figma.com/design/nDXxJygw0sOTkU6MmvKFz3/Goblin-Gizmos-Wireframe-TABLET?node-id=0-1&embed-host=share" allowfullscreen></iframe>
-
-    <!--Desktop-->
-    <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500" src="https://embed.figma.com/design/91FjytbQcfVmIlbGwhRWey/Goblin-Gizmos-Wireframe-DESKTOP?node-id=0-1&embed-host=share" allowfullscreen></iframe>
-
-    <h3>High-Fidelity Prototype(s)</h3>
-    
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500" src="https://embed.figma.com/design/TIP81wdvfMGOOVutg7Varx/Centra-Prototype---Jenna-Blubaugh?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+        </nav>
+    </header>
 
 
-<h2>Physical Art Pieces, Classwork</h2>
+    <div id="websiteContent">
 
-    <p>This Hi-fi prototype was done for a meditation app conecpt for User-Centered Design.  This was not the final design,
-    but this was the design that was done by the author of this portfolio.</p>
-    
-<img src="StillLifeCharcoal.png" alt="A still life drawing done with charcoal">
-    <img src="FabricCharcoal.png" alt="Fabric study drawing done with charcoal">
-    <img src="ContinuityGestalt.png" alt="Gestalt principle of continuity represented with pieces of black paper">
-    
+        <h1>Classwork Portfolio of Jenna Blubaugh</h1>
+
+        <p id="introductionPara">Welcome to the portfolio of Jenna Blubaugh! Below are works from different classes
+            in the Digital Media: Web Design major, such as Drawing Fundamentals, 2D Art, Front-End Web Design,
+            Client-Side
+            Scripting, and User-Centered Design.
+        </p>
+
+
+        <h4 class="miniHeading">Coding Languages known:</h4>
+        <div>
+            <ul id="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript/DOM Scripting</li>
+                <li>SASS</li>
+                <li>SCSS</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+
+            </ul>
+        </div>
+
+        <p class="description">Additionally is adept in the LAMP stack (Linux, Apache, MySQL, PHP)</p>
+
+        <h2 class="heading" id="websites">Coding Assignments from Class</h2>
+
+        <ul>
+
+
+            <div>
+                <li><a href="Interaction Stills DOM Scripting/gallery.html" class="specificLink">Interaction Stills DOM
+                    </a></li>
+
+                <p class="description">This website was a mimicry of an example to us given by the professor. Utilizes
+                    DOM
+                    Scripting
+                    to show an enlarged image when one of the smaller images is clicked on, and there is a border around
+                    the
+                    images
+                    when scrolled over.</p>
+            </div>
+            <br>
+            <div>
+
+                <li><a href="Responsive Hobby website/index.html" class="specificLink">Responsive Website on a Hobby</a>
+                </li>
+
+                <p class="description">This assignment was done as a test for making a responsive website with the
+                    screen
+                    formats phone, tablet, and
+                    desktop.
+                    Website talks about the hobby of cooking.</p>
+            </div>
+            <br>
+            <div>
+
+
+                <li><a href="Artists Website/index.html" class="specificLink">Artist Gallery Website</a></li>
+
+                <p class="description">This website displays information about artists in a pattern. Unresponsive.</p>
+
+            </div>
+            <br>
+            <div>
+
+                <li><a href="ResponsiveImageResolutionLab/index.html" class="specificLink">Responsive Image Resolution
+                        Lab</a></li>
+
+                <p class="description"> This website was a lab for Front End Web Design, and as the screen adapts to
+                    different
+                    screen sizes, the
+                    resolution changes for the images.</p>
+
+            </div>
+
+        </ul>
+
+        <h2 class="heading" id="wireframes">Figma Wireframes from Class</h2>
+
+        <h3 class="heading">Low-Fidelity Prototype(s)</h3>
+
+        <p class="description">The following lo-fi wireframes are done in the design phase
+            of the Web Design Capstone for seniors. Three variations in Figma were made, being a phone, tablet, and
+            desktop
+            layout, planning for mobile-first.</p>
+
+        <!--Phone-->
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500"
+            src="https://embed.figma.com/design/NwfrQVUoP0lALyEISe7WZ5/LoFi-Prototype-Phone---Goblin-Gizmos?node-id=0-1&embed-host=share"
+            allowfullscreen></iframe>
+
+        <!--Tablet-->
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500"
+            src="https://embed.figma.com/design/nDXxJygw0sOTkU6MmvKFz3/Goblin-Gizmos-Wireframe-TABLET?node-id=0-1&embed-host=share"
+            allowfullscreen></iframe>
+
+        <!--Desktop-->
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500"
+            src="https://embed.figma.com/design/91FjytbQcfVmIlbGwhRWey/Goblin-Gizmos-Wireframe-DESKTOP?node-id=0-1&embed-host=share"
+            allowfullscreen></iframe>
+
+        <h3 class="heading">High-Fidelity Prototype(s)</h3>
+
+        <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="500" height="500"
+            src="https://embed.figma.com/design/TIP81wdvfMGOOVutg7Varx/Centra-Prototype---Jenna-Blubaugh?node-id=0-1&embed-host=share"
+            allowfullscreen></iframe>
+
+        <p class="description">This Hi-fi prototype was done for a meditation app conecpt for User-Centered Design. This
+            was
+            not the final
+            design,
+            but this was the design that was done by the author of this portfolio.</p>
+
+        <h2 class="heading" id="artwork">Physical Art Pieces, Classwork</h2>
+
+
+
+        <img src="StillLifeCharcoal.png" alt="A still life drawing done with charcoal">
+        <img src="FabricCharcoal.png" alt="Fabric study drawing done with charcoal">
+        <img src="ContinuityGestalt.png" alt="Gestalt principle of continuity represented with pieces of black paper">
+
+
+    </div>
+
+    <footer>
+        <!--Return to top and maybe another nav-->
+        <nav>
+
+            <a href="#websites">
+                <div class="divNav">Websites</div>
+            </a>
+
+            <a href="#wireframes">
+                <div class="divNav">Wireframes</div>
+            </a>
+            <a href=#artwork>
+                <div class="divNav"> Artwork</div>
+            </a>
+
+
+
+        </nav>
+    </footer>
 </body>
 
 </html>
