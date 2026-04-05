@@ -1,6 +1,6 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(226, 204, 255);
+    background-color: rgb(204, 207, 255);
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
@@ -20,7 +20,7 @@ nav {
     /*border: 1px black solid;*/
     text-align: center;
     padding: 30px;
-    background-color: rgb(190, 140, 255);
+    background-color: rgb(146, 140, 255);
 
 
 
@@ -36,17 +36,17 @@ a {
 }
 
 a:hover .divNav {
-    background-color: rgb(102, 46, 176);
+    background-color: rgb(52, 46, 176);
 
-    border-color: rgb(102, 46, 176);
+    border-color: rgb(57, 46, 176);
     color: white;
 }
 
 .divNav {
-    border: solid 1px rgb(238, 225, 255);
+    border: solid 1px rgb(226, 225, 255);
     display: inline;
     padding: 15px;
-    background-color: rgb(238, 225, 255);
+    background-color: rgb(225, 226, 255);
 
 
 }
@@ -68,7 +68,7 @@ a:hover .divNav {
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(238, 225, 255);
+    background-color: rgb(227, 225, 255);
 }
 
 
@@ -84,6 +84,80 @@ a:hover .divNav {
 .description {
     padding: 10px;
 }
+
+
+
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.previous,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.previous:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.imgText {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.imgNumber {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
 
 
 /*Phone Screen*/
@@ -131,7 +205,7 @@ a:hover .divNav {
 @media (min-width:1000px) {
 
     html {
-        background-color: rgb(54, 31, 91);
+        background-color: rgb(31, 36, 91);
     }
 
     body {
