@@ -14,6 +14,25 @@ body {
 
 }
 
+
+.headshot {
+    width: 300px;
+    border-radius: 50;
+}
+
+.itemBox {
+    border: solid 1px rgb(24, 24, 44);
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgb(225, 229, 255);
+
+    /* Adjust width as needed */
+
+}
+
+
 ul {
     list-style: none;
 }
@@ -66,7 +85,7 @@ a:hover .divNav {
 
 }
 
-#skillList {
+.skillList {
     text-align: center;
     border: solid 1px black;
     padding: 15px;
@@ -74,7 +93,7 @@ a:hover .divNav {
     border-radius: 25px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgb(227, 225, 255);
+    background-color: rgb(225, 229, 255);
 }
 
 
@@ -175,8 +194,13 @@ a:hover .divNav {
         height: auto;
     }
 
+    .itemBox {
+        width: 400px;
+    }
 
-
+    .websiteContent {
+        text-align: center;
+    }
 
 }
 
@@ -233,5 +257,10 @@ a:hover .divNav {
         width: 650px;
         height: auto;
     }
+
+    .itemBox {
+        width: 600px;
+    }
+
 
 }
