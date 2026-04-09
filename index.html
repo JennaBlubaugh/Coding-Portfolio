@@ -6,7 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jenna Blubaugh Portfolio</title>
     <link rel="stylesheet" type="text/css" href="indexStyle.css">
-<script src="portfolio.js"></script>
+
+    <script>
+
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        // Next/previous controls
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("slideFade");
+
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+
+
+
+    </script>
 </head>
 
 <body>
@@ -42,13 +75,7 @@
 
     <div id="websiteContent">
 
-
-<h1>PORTFOLIO IS CURRENTLY UNDER DEVELOPMENT</h1>
-
-        
         <h1>Portfolio of Jenna Blubaugh</h1>
-
-        <img src="headshot.png">
 
         <p id="introductionPara">Hey there! It would be egotistical of me to say that
             I am capable of many things, but perhaps you'd like to know what I can actually do. I am a web developer who
@@ -56,21 +83,7 @@
         </p>
 
 
-        <h4 class="miniHeading">Coding Languages known:</h4>
-        <div>
-            <ul id="skillList">
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript/DOM Scripting</li>
-                <li>SASS</li>
-                <li>SCSS</li>
-                <li>PHP</li>
-                <li>MySQL</li>
 
-            </ul>
-        </div>
-
-        <p class="description">Additionally is adept in the LAMP stack (Linux, Apache, MySQL, PHP)</p>
 
         <h2 class="heading" id="websites">Coding Assignments from Class</h2>
 
@@ -78,35 +91,76 @@
 
 
             <div>
-<!--Insert video here-->
+                <li>2025-2026 Web Design Capstone Project [in progress]: Goblin Gizmos</li>
 
-                
-                <li><a href="Interaction Stills DOM Scripting/gallery.html" class="specificLink">Interaction Stills DOM
+
+                <div class="comingSoonBox">
+                    <!--Make this a box-->
+                    <p>Coming Soon</p>
+                </div>
+
+                <p class="description">The Capstone Project required students to be paired with randomized teammates and
+                    to create an application or website either creating a new idea or building upon an existing concept.
+                    I acted as the project leader and engineering lead for our project, called Goblin Gizmos. Goblin
+                    Gizmos is a website for collectors to show off their collections and interact with others, providing
+                    a space for beginners and experts alike.</p>
+
+                <p class="description">This website utilizes HTML, CSS, JavaScript, PHP, and MySQL databases. Will be
+                    implemented into Supabase and transported in a Docker container</p>
+
+
+
+            </div>
+            <br>
+
+            <div>
+
+                <video width="320" height="240" autoplay muted>
+                    <source src="assignment05Recording.MP4" type="video/mp4">
+                </video>
+
+
+                <li>CMS Movie Review System</li>
+
+
+                <p class="description">This assignment is a CMS platform that allows users to uplaod reviews of movie,
+                    make comments on other movie reviews, see a list of their own personal reviews, and admins can
+                    manage posts. Video only, as this was uploaded to the UCF student server.</p>
+
+
+
+            </div>
+            <br>
+
+            <div>
+
+                <video width="320" height="240" autoplay muted>
+                    <source src="domLab - HD 720p.MP4" type="video/mp4">
+                </video>
+
+
+                <li><a href="Interaction Stills DOM Scripting/gallery.html" class="specificLink">Interaction Stills
+                        DOM
                     </a></li>
 
-                <p class="description">This website was a mimicry of an example to us given by the professor. Utilizes
+                <p class="description">This website was a mimicry of an example to us given by the professor.
+                    Utilizes
                     DOM
                     Scripting
-                    to show an enlarged image when one of the smaller images is clicked on, and there is a border around
+                    to show an enlarged image when one of the smaller images is clicked on, and there is a border
+                    around
                     the
                     images
                     when scrolled over.</p>
             </div>
             <br>
+
+
             <div>
 
-                <li><a href="Responsive Hobby website/index.html" class="specificLink">Responsive Website on a Hobby</a>
-                </li>
-
-                <p class="description">This assignment was done as a test for making a responsive website with the
-                    screen
-                    formats phone, tablet, and
-                    desktop.
-                    Website talks about the hobby of cooking.</p>
-            </div>
-            <br>
-            <div>
-
+                <video width="320" height="240" autoplay muted>
+                    <source src="rennaissance - HD 720p.MP4" type="video/mp4">
+                </video>
 
                 <li><a href="Artists Website/index.html" class="specificLink">Artist Gallery Website</a></li>
 
@@ -115,6 +169,10 @@
             </div>
             <br>
             <div>
+
+                <video width="320" height="240" autoplay muted>
+                    <source src="ImageResolution - HD 720p.MP4" type="video/mp4">
+                </video>
 
                 <li><a href="ResponsiveImageResolutionLab/index.html" class="specificLink">Responsive Image Resolution
                         Lab</a></li>
@@ -130,14 +188,6 @@
 
         <h2 class="heading" id="wireframes">Figma Wireframes from Class</h2>
 
-
-
-
-        <h3>Website Re-Design</h3>
-        <h2>Boardwalk at Alafaya Trail</h2>
-
-
-        
 
 
         <h3 class="heading">High-Fidelity Prototype(s)</h3>
