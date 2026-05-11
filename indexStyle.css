@@ -192,6 +192,8 @@ a:hover .divNav {
     img {
         width: 450px;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .itemBox {
@@ -226,6 +228,8 @@ a:hover .divNav {
     img {
         width: 600px;
         height: auto;
+        margin-left: auto;
+        margin-right: auto;
     }
 
 }
