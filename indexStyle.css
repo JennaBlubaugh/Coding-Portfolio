@@ -18,6 +18,8 @@ body {
 .headshot {
     width: 300px;
     border-radius: 50;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .itemBox {
